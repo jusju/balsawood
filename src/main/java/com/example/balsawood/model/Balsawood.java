@@ -16,6 +16,7 @@ public class Balsawood {
 	private double thickness;
 	private double density;
 	private String grain;
+	
 	public Balsawood() {
 		super();
 	}
