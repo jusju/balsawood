@@ -22,7 +22,7 @@ public class BalsawoodApplication {
 	public CommandLineRunner balsaDemo(BalsawoodRepository repository) {
 		return (args) -> {
 			log.info("save a couple of balsawood pieces");
-			repository.save(new Balsawood(0, 0, 0, 0, 0, "C"));
+			repository.save(new Balsawood(25.0, 100.0, 10.0, 1.5, 90.0, "C"));
 			
 			log.info("fetch all balsawood pieces");
 			for (Balsawood balsawood: repository.findAll()) {

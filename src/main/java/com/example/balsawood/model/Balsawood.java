@@ -20,7 +20,9 @@ public class Balsawood {
 	public Balsawood() {
 		super();
 	}
-	public Balsawood(double weight, double length, double width, double thickness, double density, String grain) {
+	public Balsawood(double weight, double length,
+			double width, double thickness, 
+			double density, String grain) {
 		super();
 		this.weight = weight;
 		this.length = length;
